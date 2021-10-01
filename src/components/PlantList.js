@@ -13,11 +13,13 @@ export default class PlantList extends Component {
     // console.log("PlantList: Did Mount!");
     axios.get(`http://localhost:3333/plants`)
       .then(res => {
-        console.log(res);
+        // console.log(res);
+        this.setState({
+          ...this.state,
+          plants: res.data
+        })
       })
   }
-
-
 
   /*********  DON'T CHANGE ANYTHING IN THE RENDER FUNCTION *********/
   render() {
