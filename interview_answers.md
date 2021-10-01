@@ -7,7 +7,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     What is a functional component?
     - A React lego piece that takes in props and returns JSX definitions.
     What are the main differences?
-    - They both can hold state. They can create, and mutate it. The difference is functional components return JSX.. and stateful components handle non-visual behavior. 
+    - Functional components do not have state or lifecycle methods. Stateful components like classes create and manipulate stored data with logic.  
+
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
     What are the stages of the React lifecycle?
     - Mounting, Updating, Unmounting // Birth, Life, Death
@@ -20,6 +21,6 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
     - Any code used to create or manipulate data. Logic that is built into a component. It can be a function that handles user events, adjusts state, or formats data before displaying it. 
 
 4. What are the three step of creating a successful test? What is done in each phase?
-    - Arrange: 
-    - Act
-    - Assert 
+    - Arrange: Layout which inputs and targets will be be in focus. Set up the test case. This means including any special objects or settings, and could mean prepping a database. 
+    - Act: Interact with the target to elicit specific behavior. This step should cover the main thing to be tested. 
+    - Assert: Veryify the goodness or badness of the responses brought about in the Act step. Determine whether a test passes or    fails. 
