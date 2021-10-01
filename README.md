@@ -15,7 +15,7 @@ You are not allowed to collaborate during the sprint challenge.
 
 ## Project Instructions
 
-In this project, you will add class components to your a basic ecommerce site that allow you to request product data from a server and render that data. You will also implement the ablitity to add products to a shopping cart.
+In this project, you will add class components to your basic ecommerce site that allow you to request product data from a server and render that data. You will also implement the ablitity to add products to a shopping cart.
 
 In meeting the minimum viable product (MVP) specifications listed below, your project should look like the solution examples below:
 
